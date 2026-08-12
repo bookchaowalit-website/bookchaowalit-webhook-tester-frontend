@@ -15,36 +15,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bookchaowalit - Bookchaowalit",
-  description: "Bookchaowalit by Bookchaowalit - A modern web application built with Next.js",
-  keywords: ['Bookchaowalit', 'Bookchaowalit', 'Next.js', 'React', 'TypeScript'],
+  title: "Webhook Tester — Inspect webhook payloads instantly",
+  description: "Get a capture URL, point any webhook at it, and inspect headers, body, and timing in real time. No signup, no tunnel required.",
+  keywords: ['webhook tester', 'webhook debugging', 'request inspector', 'Next.js', 'developer tools'],
   authors: [{ name: 'Bookchaowalit', url: 'https://bookchaowalit.com' }],
   creator: 'Bookchaowalit',
   publisher: 'Bookchaowalit',
-  metadataBase: new URL('https://bookchaowalit.com'),
+  metadataBase: new URL('https://webhook-tester.bookchaowalit.com'),
   alternates: {
-    canonical: 'https://bookchaowalit.com',
+    canonical: 'https://webhook-tester.bookchaowalit.com',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://bookchaowalit.com',
-    title: 'Bookchaowalit - Bookchaowalit',
-    description: 'Bookchaowalit by Bookchaowalit - A modern web application built with Next.js',
-    siteName: 'Bookchaowalit',
+    url: 'https://webhook-tester.bookchaowalit.com',
+    title: 'Webhook Tester — Inspect webhook payloads instantly',
+    description: 'Get a capture URL, point any webhook at it, and inspect headers, body, and timing in real time.',
+    siteName: 'Webhook Tester',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Bookchaowalit',
+        alt: 'Webhook Tester',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bookchaowalit - Bookchaowalit',
-    description: 'Bookchaowalit by Bookchaowalit - A modern web application built with Next.js',
+    title: 'Webhook Tester — Inspect webhook payloads instantly',
+    description: 'Get a capture URL, point any webhook at it, and inspect headers, body, and timing in real time.',
     images: ['/og-image.png'],
     creator: '@bookchaowalit',
   },
